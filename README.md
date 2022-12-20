@@ -19,15 +19,19 @@ pip install opencv(上期已经安装)
 * 读取
 
 
+
     cap = cv2.VideoCapture(0)
     ret, frame = cap.read()    
+
 
 
 * 释放
 
 
+
     cap.release()
     cv2.destroyAllWindows()
+    
 
 桌面捕获：
 --
@@ -35,7 +39,9 @@ pip install opencv(上期已经安装)
 * 捕获帧
 
 
+
     frame = mss.mss().grab()
+
 
 
 
